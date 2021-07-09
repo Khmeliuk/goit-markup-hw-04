@@ -112,7 +112,16 @@ ul {
 .nav-list .link:focus {
   color: var(--accent-color);
 }
+.contact::before{
+  content: "";
+  background-image: url(../images/igor.jpg);
+}
 
+  }
+  .contact:hover .service-icon{
+    fill: var(--accent-color);
+    color: var(--accent-color);
+  }
 .contact {
   font-weight: 500;
   font-size: 14px;
@@ -243,7 +252,8 @@ ul {
 }
 .features-item::before{
   content: "";
-  background-image: url(../images/sprite.svg#icon-antenna-1);display: flex;
+  background-image: url(../images/sprite.svg#icon-antenna-1)
+  display: flex;
   width: 270px;
   height: 120px;
   background-color: var(--buttom-bg);
