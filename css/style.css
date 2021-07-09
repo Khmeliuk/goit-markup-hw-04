@@ -59,6 +59,7 @@ ul {
 .head-container {
   display: flex;
 }
+
 /* logo */
 .logo {
   font-family: Raleway;
@@ -148,7 +149,16 @@ ul {
 /* banner section */
 
 .banner-section {
-  background-color: var(--secondary-bg-color);
+    background-color: var(--secondary-bg-color);
+    background: rgba(47, 48, 58, 0.4);;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1600px;
+    margin: auto auto;
+    
 }
 .banner-section {
   color: var(--banner-color);
@@ -230,6 +240,19 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+}
+.features-item::before{
+  content: "";
+  background-image: url(../images/sprite.svg#icon-antenna-1);display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: var(--buttom-bg);
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 /* whot we do section */
