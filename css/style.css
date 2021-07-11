@@ -368,6 +368,16 @@ ul {
   margin-left: 22px;
   
 }
+.our-team-social{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.link-social-icon{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
 .our-team-social:hover{
 display: flex;
 background-color: var(--accent-color);
@@ -375,6 +385,9 @@ border-radius: 50%;
 fill: var(--banner-color);
 align-items: center;
 justify-content: center;
+}
+.link-icon{
+  margin: auto;
 }
 
 /* clients */
